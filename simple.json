@@ -1,0 +1,12 @@
+{
+       "application": "some-smart-contract",
+       "reputons:" [
+         {
+           "rater": "defiscore.consensys.com",
+           "assertion": "defi",
+           "rated": "0xContractAddress",
+           "rating": 0.70,
+           "sample-size": <amount of transactions>
+         }
+       ]
+     }

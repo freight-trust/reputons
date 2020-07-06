@@ -1,0 +1,37 @@
+     {
+       "contract": "EIP-1191 address",
+       "reputons": [
+         {
+           "getController": "_getController",
+           "isApprovedForAll": "_isApprovedForAll",
+           "rater": "rep.example.net",
+           "identity": "contractOwner, _affirmOwner",
+           "tokenURI": "",
+           "affirmOwner": true,
+           "rating": [
+            "value": "{tokenOfOwnerByIndex}*{tokenByIndex}"
+           ],
+           "sample-size": "$tokenOfOwnerByIndex",
+           "updated": "_eth_blockNumber",
+           "sha3": "web3_sha3"
+         },
+         {
+           "balanceOf": "_balanceOf",
+           "assertion": "active",
+    "registry": [
+        "trust_wallet",
+        "mycrypto",
+        "defiscore",
+        "defipulse"
+    ]
+           "audit": "#/web3api.io/api/v2/contracts/hash/audit",
+           "functions": "#/web3api.io/api/v2/contracts/hash/functions",
+           "rankingsHistorical": "#/web3api.io/api/v2/tokens/rankings/historical",
+           "liquidity": [
+            "uniswap:#/web3api.io/api/v2/market/orders/uniswap/pair/liquidity"
+            "tokenSupply:#web3api.io/api/v2/tokens/hash/supplies/latest"
+           ]
+           "updated": <timestamp when server finished request>
+         }
+       ]
+     }

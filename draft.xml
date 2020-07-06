@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <contract>EIP-1191 address</contract>
+  <reputons>
+    <getController>_getController</getController>
+    <isApprovedForAll>_isApprovedForAll</isApprovedForAll>
+    <rater>rep.example.net</rater>
+    <identity>contractOwner, _affirmOwner</identity>
+    <tokenURI></tokenURI>
+    <affirmOwner>true</affirmOwner>
+    <value>{tokenOfOwnerByIndex}*{tokenByIndex}</value>
+    <sample-size>$tokenOfOwnerByIndex</sample-size>
+    <updated>_eth_blockNumber</updated>
+    <sha3>web3_sha3</sha3>
+  </reputons>
+  <reputons>
+    <balanceOf>_balanceOf</balanceOf>
+    <assertion>active</assertion>
+    <meta>trust_wallet</meta>
+    <meta>mycrypto</meta>
+    <meta>defiscore</meta>
+    <meta>defipulse</meta>
+  </reputons>
+</root>

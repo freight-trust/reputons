@@ -1,0 +1,11 @@
+"audit": "#/web3api.io/api/v2/contracts/hash/audit",
+           "functions": "#/web3api.io/api/v2/contracts/hash/functions",
+           "rankingsHistorical": "#/web3api.io/api/v2/tokens/rankings/historical",
+          
+ "liquidity": [
+            "uniswap:#/web3api.io/api/v2/market/orders/uniswap/pair/liquidity"
+            "tokenSupply:#web3api.io/api/v2/tokens/hash/supplies/latest"
+           ]
+           "updated": <timestamp when server finished request>
+         }
+       ]
